@@ -1,0 +1,8 @@
+{
+  "name": "IPSW Web Installer",
+  "short_name": "IPSWInstaller",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f5f7",
+  "theme_color": "#007AFF"
+}

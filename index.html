@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPSW Installer Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="32" height="32" rx="8" fill="#007AFF"/>
+                <path d="M16 8V24M16 24L10 18M16 24L22 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h1>IPSW Restore Terminal</h1>
+        </div>
+    </header>
+    <main>
+        <section class="installer-box">
+            <h2>Flash/Restore iOS Device Firmware</h2>
+            <div class="drop-zone" id="dropZone">
+                <p>Drag & Drop your <strong>.ipsw</strong> file here or click to browse</p>
+                <input type="file" id="fileInput" accept=".ipsw" style="display:none">
+            </div>
+            <div class="device-info">
+                <h3>Target Device Status: <span id="status" class="disconnected">Disconnected</span></h3>
+            </div>
+            <button id="installBtn" disabled>Start IPSW Installation</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
