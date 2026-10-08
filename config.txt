@@ -1,0 +1,1 @@
+Target Device=iPhone; Mode=DFU; LogLevel=Debug;
